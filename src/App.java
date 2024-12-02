@@ -59,7 +59,6 @@ public class App {
         List<Par<Integer, String>> menoresDeEdad = new ArrayList<>();
         List<Par<Integer, String>> mayoresDeEdad = new ArrayList<>();
 
-        // Rellenar la lista con menores de edad
         for (Persona persona : personas) {
             if (persona.getEdad() <= 18) {
                 Par<Integer, String> par = new Par<>();
